@@ -1,4 +1,15 @@
-import { Text, View } from 'react-native';
-export default function App() {
-  return <View style={{flex:1,justifyContent:'center',alignItems:'center'}}><Text>QuePam</Text></View>
+{
+  "expo": {
+    "name": "QuePam",
+    "slug": "quepam",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.quepamservices.quepam"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0eeca567-43e1-4fc9-9afd-9aff5e14bbad"
+      }
+    }
+  }
 }
